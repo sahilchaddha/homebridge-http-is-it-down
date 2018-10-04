@@ -1,0 +1,33 @@
+{
+    "accessories": [
+        {
+            "accessory": "IsItDown",
+            "name": "Camera Status",
+            "url": "https://192.168.0.186",
+            "auth": {
+                "user": "root",
+                "pass": "ismart12"
+            },
+            "maxTryOuts": 3,
+            "interval": 300000,
+            "expectedStatusCode": 200,
+            "debug": true
+        },
+        {
+            "accessory": "IsItDown",
+            "name": "MyWebsiteIsItDown",
+            "url": "http://sahilchaddha.com",
+            "maxTryOuts": 3,
+            "interval": 1000,
+            "expectedStatusCode": 200
+        },
+                {
+            "accessory": "IsItDown",
+            "name": "MyWebsiteIsItUP",
+            "url": "http://sahilchaddha.com/pingu",
+            "maxTryOuts": 3,
+            "interval": 1000,
+            "expectedStatusCode": 404
+        }
+    ]
+}

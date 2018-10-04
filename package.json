@@ -1,0 +1,40 @@
+{
+  "name": "homebridge-http-is-it-down",
+  "version": "1.0.0",
+  "description": "Homebridge Plugin to show Occupancy Sensor when provided host/url/server is down.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint .",
+    "ci": "npm install && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilchaddha/homebridge-http-is-it-down.git"
+  },
+  "keywords": [
+    "homebridge",
+    "homebridge-plugin",
+    "http",
+    "isitdown"
+  ],
+  "engines": {
+    "homebridge": ">=0.4.30"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "request": "^2.88.0"
+  },
+  "author": "Sahil Chaddha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilchaddha/homebridge-http-is-it-down/issues"
+  },
+  "homepage": "https://github.com/sahilchaddha/homebridge-http-is-it-down#readme"
+}
