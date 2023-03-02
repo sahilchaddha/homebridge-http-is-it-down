@@ -1,6 +1,7 @@
 {
   "name": "homebridge-http-is-it-down",
-  "version": "1.0.0",
+  "displayName": "HTTP Is It Down?",
+  "version": "1.0.1",
   "description": "Homebridge Plugin to show Occupancy Sensor when provided host/url/server is down.",
   "main": "index.js",
   "preferGlobal": true,
